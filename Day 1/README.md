@@ -132,7 +132,8 @@ int main()
     return sum;
 }
 
-![My setup](setup.png)
+![My setup](setup.PNG)
+
 
 ---
 
@@ -160,7 +161,7 @@ riscv64-unknown-elf-objdump -d filename.o | less
 
 Disassembly converts machine code back into readable assembly instructions.
 
-![My setup](mainfast.png)
+![My setup](mainfast.PNG)
 
 ---
 
@@ -185,7 +186,7 @@ spike pk filename.o
 until pc 0 <memory location>
 reg 0 <register name>
 
-![My setup](addi,lui.png)
+![My setup](addi,lui.PNG)
 ---
 
 ## Number Representation
@@ -203,16 +204,16 @@ The range of positive and negative numbers in RISC-V is:
 - Positive numbers: 0 to 2^63 - 1
 - Negative numbers: -1 to -2^63
 
-![My setup](unsignedlongintcode.png)
-![My setup](unsignedlongint.png)
+![My setup](unsignedlongintcode.PNG)
+![My setup](unsignedlongint.PNG)
 
 If only `int` is mentioned, it is treated as 32-bit and can lead to issues, so `long long int` must be used for 64-bit.
 
 ### Incorrect Usage
 
-![My setup](wrongsignedhighest.png)
+![My setup](wrongsignedhighest.PNG)
 
 ### Corrected Version
 
-![My setup](correctsignedhighestcode.png)
-![My setup](correctsignedhighest.png)
+![My setup](correctsignedhighestcode.PNG)
+![My setup](correctsignedhighest.PNG)
