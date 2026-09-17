@@ -177,7 +177,7 @@ spike pk filename.o
 - **pk** — RISC-V proxy kernel
 - **filename** — our RISC-V program
 
-![My setup](Capture.png)
+![My setup](Capture.PNG)
 
 `spike -d pk object filename.o` can be used to set the PC from where we want to run the instructions step by step.
 
