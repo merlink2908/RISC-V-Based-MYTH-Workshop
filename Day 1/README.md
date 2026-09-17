@@ -132,7 +132,7 @@ int main()
     return sum;
 }
 
-![My setup](setup.PNG)
+
 
 
 ---
