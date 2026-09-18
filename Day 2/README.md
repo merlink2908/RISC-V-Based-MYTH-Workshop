@@ -134,27 +134,29 @@ The flowchart implements a simple sum calculation from 0 to 9 using RISC-V regis
 
 The overall flow can be summarised as:
 
+```text
 C program
-   ↓
+    ↓
 load(0, 10)
-   ↓
+    ↓
 a0 = 0, a1 = 10
-   ↓
+    ↓
 Assembly function
-   ↓
+    ↓
 a4 = running sum
 a3 = counter
 a2 = limit
-   ↓
+    ↓
 0 + 1 + 2 + ... + 9
-   ↓
+    ↓
 a4 = 45
-   ↓
+    ↓
 a0 = 45
-   ↓
+    ↓
 return to C
-   ↓
+    ↓
 result = 45
+```
 
 ---
 
