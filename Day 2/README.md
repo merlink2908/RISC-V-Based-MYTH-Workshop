@@ -64,7 +64,7 @@ The length of the registers is 32-bit for RV32 and 64-bit for RV64.
 
 The conventional purposes of the registers, as defined by ABI, is as follows:
 
-![My setup](Screenshot(440).png)
+![My setup](regname.png)
 
 ---
 
