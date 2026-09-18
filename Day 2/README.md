@@ -4,6 +4,7 @@ Application Binary Interface is an interface which allows application programs, 
 
 The role of ABI can be understood by the following flowchart:
 
+```text
 ┌─────────────────────┐
 │ Application         │
 │ Email, Browser etc. │
@@ -16,7 +17,7 @@ The role of ABI can be understood by the following flowchart:
 └──────────┬──────────┘
            ↓
 ┌─────────────────────┐
-│ Standard Libraries   │
+│ Standard Libraries  │
 │ printf(), etc.      │
 └──────────┬──────────┘
            ↓
@@ -49,6 +50,7 @@ The role of ABI can be understood by the following flowchart:
 │ Hardware            │
 │ Actual processor    │
 └─────────────────────┘
+```
 
 ---
 
@@ -183,8 +185,8 @@ chmod 777 rv32im.sh
 ./rv32im.sh
 
 ![My setup](riscvsum.PNG)
-![My setup](frimmware.hex.PNG)
-![My setup](frimmware32hex.PNG)
+![My setup](frimware.hex.PNG)
+![My setup](frimware32hex.PNG)
 
 
 These hex files are hexadecimal representations of machine instructions/data.
