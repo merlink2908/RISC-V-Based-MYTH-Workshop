@@ -180,7 +180,7 @@ This allows repeated structures and hierarchical organization of hardware. Lexic
 
 **Combinational Calculator**
 
-![My setup](combcal.PNG)
+![My setup](combcalc.PNG)
 
 https://myth.makerchip.com/v186/ide/~0yPfzc9R/p-04mcBP
 
