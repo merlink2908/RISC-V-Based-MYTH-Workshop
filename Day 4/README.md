@@ -1,6 +1,6 @@
 ## Building a RISC-V Core
 
-The CPU datapath introduced contains the PC, instruction memory, decoder, register file, ALU, and data memory.
+The CPU datapath introduced contains the PC, instruction memory, decoder, register file, ALU and data memory.
 
 ![My setup](4.PNG)
 
@@ -185,7 +185,7 @@ The ALU performs arithmetic and logic. The result is stored in:
 $result[31:0]
 ```
 
-**Slide 18:** ALU implementation.
+
 
 ---
 
@@ -400,7 +400,7 @@ Decode the fetched RISC-V instruction and identify the specific instruction bein
 - `BGEU`
 - `ADDI`
 - `ADD`
-  ![My setup]actualbeq.PNG)
+- ![My setup](actualbeq.PNG)
 
 ### Register File Read
 
@@ -431,4 +431,4 @@ Modify the testbench code to explicitly check `x10 == 45`.
 
 ---
 
-**Link to Makerchip code:** https://myth.makerchip.com/v186/ide/~0yPfzc9R/p-0EOcW5
+
