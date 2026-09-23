@@ -50,7 +50,7 @@ The OS provides services that applications need, such as:
 
 - Handling I/O operations
 - Managing memory and deciding which parts of memory can be used by different programs
-- Low-level system functions like file access, memory management, process management, networking, device management, and security
+- Low-level system functions like file access, memory management, process management, networking, device management and security
 
 ---
 
@@ -68,7 +68,7 @@ gets mapped to:
 
 add a1, a2, a3
 
-`riscv64-unknown-elf-gcc` tells GCC that you're generating code for a RISC-V target, rather than for the x86 CPU running your Codespace. That's why it's called a **cross-compiler**.
+`riscv64-unknown-elf-gcc` tells GCC that we're generating code for a RISC-V target, rather than for the x86 CPU running the Codespace. That's why it's called a **cross-compiler**.
 
 ---
 
@@ -183,8 +183,8 @@ spike pk filename.o
 
 **Commands:**
 
-until pc 0 <memory location>
-reg 0 <register name>
+until pc 0 memory location
+reg 0 register name
 
 ![My setup](addi,lui.PNG)
 ---
