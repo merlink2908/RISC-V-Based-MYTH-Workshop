@@ -181,9 +181,13 @@ spike filename.o
 Commands:
 
 git clone https://github.com/kunalg123/riscv_workshop_collaterals.git
+
 cd riscv_workshop_collaterals
+
 cd labs
+
 chmod 777 rv32im.sh
+
 ./rv32im.sh
 
 ![My setup](riscvsum.PNG)
