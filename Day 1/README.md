@@ -120,6 +120,7 @@ For normal GCC compilation, simply `gcc filename.c` is sufficient in the termina
 
 ### C Program
 
+```c
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -131,7 +132,7 @@ int main()
 
     return sum;
 }
-
+```
 
 
 
@@ -184,6 +185,7 @@ spike pk filename.o
 **Commands:**
 
 until pc 0 memory location
+
 reg 0 register name
 
 ![My setup](addi,lui.PNG)
